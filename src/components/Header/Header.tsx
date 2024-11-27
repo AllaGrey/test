@@ -1,9 +1,12 @@
+"use client";
+
 import Link from "next/link";
+import { HeaderLogo } from "./Header.style";
 
 const Header = () => {
   return (
     <header className="flex flex-col items-center gap-4">
-      <h1 className="text-4xl font-bold text-red-500">logo</h1>
+      <HeaderLogo>logo</HeaderLogo>
       <ul className="flex gap-4">
         <li>
           <Link href="/">Home</Link>
