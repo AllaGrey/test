@@ -3,10 +3,10 @@ import Link from "next/link";
 const Header = () => {
   return (
     <header className="flex flex-col items-center gap-4">
-      <h1 className="text-4xl font-bold">logo</h1>
+      <h1 className="text-4xl font-bold">Avatar</h1>
       <ul className="flex gap-4">
         <li>
-          <Link href="/">Home</Link>
+          <Link href="/">Home2222</Link>
         </li>
         <li>
           <Link href="/about">About</Link>
